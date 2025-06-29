@@ -5,9 +5,11 @@ Telegram Mini App for couples and friends.
 ## Project structure
 
 - `backend/` - Node.js Express server serving API endpoints.
-- `frontend/` - Static frontend files for the Mini App.
+- `frontend/` - React + TypeScript frontend built with Vite.
 
 ## Getting started
+
+### Backend
 
 ```
 cd backend
@@ -15,4 +17,12 @@ npm install
 npm start
 ```
 
-Then open `frontend/index.html` in a browser or serve it via a static server.
+### Frontend
+
+```
+cd frontend
+npm install
+npm run dev
+```
+
+Then open the printed local URL in a browser.
